@@ -1,0 +1,22 @@
+.hidden{
+    display: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 100px;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
